@@ -1,10 +1,10 @@
 express = require('express');
 app = express();
 
-app.get('/', function(req, res) {
+app.get('/', (req, res) => {
 	res.send('hello')
 });
 
-app.listen(80, function() {
+app.listen(80, () => {
 	console.log('Server is listening');
 });
