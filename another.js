@@ -1,3 +1,3 @@
-exports.exp = function(n) {
+exports.exp = n => {
 	return n * 2;
 }
