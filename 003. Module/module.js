@@ -1,3 +1,7 @@
 exports.hello = function() {
-  return "Hello"
+  return 'Hello'
+}
+
+exports.hi = function() {
+  return 'Hi';
 }
