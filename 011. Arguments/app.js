@@ -1,7 +1,7 @@
 function sum() {
   // 인자에 대한 정의가 없지만 21라인에서는 3개의 인자를 전달하고 있음
-  // arguments는 함수 안에서 사용할 수 있도록 약속되어 있는 일종의 배열
-  // 실제로는 arguments 객체의 인스턴스
+  // arguments 객체는 함수 호출 시 전달된 인수들의 정보를 담고 있는
+  // 순회 가능한 유사 배열 객체(iterable array-like object)
   var sum = 0;
   for(var i = 0; i < arguments.length; i++) {
     sum += arguments[i];
