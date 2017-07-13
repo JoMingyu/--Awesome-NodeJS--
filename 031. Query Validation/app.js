@@ -10,7 +10,7 @@ const connection = mysql.createConnection({
 connection.connect();
 
 connection.query(`SELECT * FROM test_table WHERE col1='a'`, (err, rows) => {
-    if(rows != undefined) {
+    if(rows[0] != undefined) {
         console.log(rows);
     } else {
         console.log(undefined);
