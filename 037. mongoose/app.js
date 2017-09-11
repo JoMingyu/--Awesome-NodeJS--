@@ -27,7 +27,7 @@ const Post = mongoose.model('Post', postSchema);
 const post = new Post({
     title: 'hello',
     content: 'Im so tired',
-    authro: 'PlanB'
+    author: 'PlanB'
 });
 
 // CRUD 중 C
